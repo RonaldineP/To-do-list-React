@@ -10,3 +10,9 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+ul {
+    max-width: 700px;
+    border: 1px solid darkgray;
+    background-color: lightgray;
+}
