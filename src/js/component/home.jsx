@@ -12,7 +12,7 @@ const Home = () => {
   const [toDos, setTodos] = useState([]);
   const [isShown, setIsShown] = useState(false);
   return (
-    <div className="text-center">
+    <div className="text-center container">
       <h1 className="text-center">TODOS</h1>
       <div className="notePad">
         <ul className="w-100">
@@ -41,6 +41,11 @@ const Home = () => {
         <div> {toDos.length} item left</div>
       </div>
     </div>
+    
+
+
+
+
   );
 };
 
